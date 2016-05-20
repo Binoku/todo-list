@@ -1,4 +1,4 @@
-angular.module("todoApp", [])
+angular.module("todoApp", [])//List starts
 .controller("TodoListController", function($scope) {
   var todoList = this;
   todoList.todoItems = [
@@ -8,6 +8,7 @@ angular.module("todoApp", [])
     { name: "Buy materials for project", done: false }
   ]
 
+//Adds List
   todoList.addTodo = function() {
     todoList.todoItems.push(
       { name: todoList.todoText }
@@ -15,6 +16,7 @@ angular.module("todoApp", [])
     todoList.todoText = "";
   };
 
+//Removes List
   todoList.remove = function() {
     console.log("removed function fired");
     var oldTodos = todoList.todoItems;
@@ -25,6 +27,7 @@ angular.module("todoApp", [])
     todoList.todoItems
   };
 
+  //Counts List
   todoList.remaining = function() {
     var notCompletedCount = 0;
     angular.forEach(todoList.todoItems, function(todo) {
