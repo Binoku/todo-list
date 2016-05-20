@@ -10,3 +10,19 @@
   color: gray;
   text-decoration: line-through;
 }
+
+body {
+	background-image: url("http://static.wixstatic.com/media/56e52f_f0d376818f3f423790c30f4f17795346.jpg");
+	position: absolute;
+    right: 0px;
+    width: 1650px;
+    padding: 10px;
+}
+
+body {
+	background-image: : url("http://www.mondo.com/wp-content/uploads/2014/10/New-York-Skyline-Black-And-White-Silhouette.jpg");
+	width: 100px
+	right: 100px
+	
+}
+
